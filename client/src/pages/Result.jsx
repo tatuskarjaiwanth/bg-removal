@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets'
 import { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 
 const Result = () => {
   const {resultImage , image /*, setImage, setResultImage*/} = useContext(AppContext)
