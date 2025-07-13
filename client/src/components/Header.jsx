@@ -12,7 +12,7 @@ const Header = () => {
             <h1 className='text-4xl xl:text-5xl 2xl:text-6xl font-bold text-neutral-700 leading-tight'>
                 Remove the <br className='max-md:hidden'/> <span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>background </span>from  <br className='max-md:hidden'/>images for free.
                  </h1>
-            <p className='my-6 text-[15px] text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt pariatur, alias aspernatur sint modi aliquid at  <br className='max-sm:hidden'/>repellendus rerum esse iste quaerat nemo blanditiis facilis suscipit molestias eum magni. Eum, atque.</p>
+            <p className='my-6 text-[15px] text-gray-500'>Easily remove image backgrounds with a single click. Perfect for product photos, profile pictures, and creatives.   <br className='max-sm:hidden'/>Fast, accurate, and free to use. No design skills needed—just upload and download your clean, professional results instantly.</p>
             <div>
                 <input onChange={e=>removeBg(e.target.files[0])} type="file" accept='image/*' id="upload1"  hidden />
                 <label className='inline-flex gap-3 px-8  py-3.5 rounded-full cursor-pointer  bg-gradient-to-r from-violet-600 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700' htmlFor='upload1'>
